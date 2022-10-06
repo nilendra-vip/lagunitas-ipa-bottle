@@ -1,0 +1,885 @@
+@font-face {
+    font-family: cooper;
+    src: url(./font/copperplate-b-webfont.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+#main{
+    width: 100%;
+    /* height: 1000%; */
+    min-height: max-content;
+    background-color: #F6F3EA;
+    display: flex;
+}
+
+
+
+
+
+#main #nav{
+    width:5%;
+    height: 100%;
+    background-color:#F6F3EA;
+    border-right: 10px double gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3vw;
+    padding-top: 20px;
+    gap: 20px;
+    position: fixed;
+    
+}
+#main #pages{
+    width:100%;
+    height: 100%;
+    /* background-color: yellow; */
+    overflow-x: hidden;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main #pages #bottle{
+    width: max-content;
+    height: max-content;
+    /* background-color: pink; */
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+#main #pages #bottle img{
+    height: 650px;
+    transform: rotate(15deg);
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Page 1 */
+#page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+#page1 #p1nav{
+    width:95%;
+    height: 10%;
+    background-color:#F6F3EA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    margin-left: 5%;
+    z-index: 999;
+}
+#page1 #p1nav #icon{
+    display: none;
+}
+#page1 #p1nav #logo{
+    width: 100px;
+    height: 60%;
+}
+#page1 #p1nav button{
+    width: 100px;
+    height: 50%;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-family: gilroy;
+    font-weight: bolder;
+    border-color: transparent;
+}
+
+#page1 #box{
+    width:100%;
+    height: 100%;
+    /* background-color: rgb(194, 220, 239); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1 #box #heading{
+    width: 70vw;
+    height: 60vh;
+    /* background-color:rgb(4, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1 #box #heading h1{
+    font-size: 16vw;
+    text-transform: uppercase;
+    font-family: druk;
+    text-align: center;
+    line-height: 13vw;
+    color: rgb(180, 43, 43);
+    letter-spacing: 5px;
+    background-image: url(./image/texture.png);
+    background-color: #DA2E39;
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+
+#page1 #bot{
+    display: none;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+#page2{
+    width: 100%;
+    height: 55vh;
+    /* background-color: rgb(4, 255, 0); */
+    display: flex;
+}
+#page2 #left{
+    width: 50%;
+    height: 100%;
+    /* background-color: gray; */
+}
+#page2 #left #text{
+    width: 400px;
+    height: 500px;
+    /* background-color: wheat; */
+    margin: -20% 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#page2 #left #text h5{
+    font-size: 1.2vw;
+    font-family: gilroy;
+}
+#page2 #left #text h1{
+    font-size: 7vw;
+    font-family: druk;
+    text-transform: uppercase;
+    line-height: 6vw;
+    font-weight: 900;
+    opacity: .9;
+    background-image: url(./image/texture.png);
+    background-color: black;
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+#page2 #left #text button{
+    width: 100px;
+    height: 40px;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+#page2 #right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(20, 220, 80); */
+    display: flex;
+    /* align-items: center; */
+    justify-content:flex-end;
+}
+#page2 #right #box{
+    width: 450px;
+    height: 500px;
+    /* background-color: aqua; */
+    border: 5px double black;
+    margin: -20% 10% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#page2 #right #box .part{
+    width: 90%;
+    height: 30%;
+    /* background-color: lightcoral; */
+    font-family: gilroy;
+
+}
+#page2 #right #box .part .text{
+    width: 100%;
+    height: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#page2 #right #box .part .text h1{
+    font-family: druk;
+    font-size: 5vw;
+    background-image: url(./image/texture.png);
+    background-color:black;
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+
+/* ..................................................................................................................... */
+
+
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    /* background-color:violet; */
+}
+#page3 #top{
+    width: 95%;
+    height: 40%;
+    /* background-color:gray; */
+    margin: 0 0 0 5%;
+}
+#page3 #top h1{
+    font-family: druk;
+    font-size: 19vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(180, 34, 34);
+    letter-spacing: 10px;
+    font-weight: bold;
+    background-image: url(./image/texture.png);
+    background-color: #DA2E39;
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+
+
+
+#page3 #bottom{
+    width: 100%;
+    height: 60%;
+    /* background-color:turquoise; */
+    display: flex;
+    justify-content: space-between;
+}
+#page3 #bottom #left{
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+    margin: 0 0 0 5%;
+    padding-left: 20px;
+    
+}
+#page3 #bottom #left #video{
+    width: 450px;
+    height: 250px;
+    /* background-color: whitesmoke; */
+}
+#page3 #bottom #left #video img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+
+#page3 #bottom #left h3{
+    font-family: gilroy;
+    opacity: .7;
+    padding-top: 10px;
+}
+
+
+
+#page3 #bottom #right{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(14, 134, 18); */
+    font-family: gilroy;
+    padding: 10px 100px 0 0;
+}
+#page3 #bottom #right h3{
+    font-family: druk;
+    font-size: 2vw;
+    padding: 10px 0 5px 0;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+#page4{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(17, 0, 255); */
+    display: flex;
+}
+#page4 #left{
+    width: 50%;
+    height: 130vh;
+    /* background-color: rgb(240, 135, 250); */
+    position: relative;
+    margin-left: 5%;
+}
+#page4 #left img{
+    width: 100%;
+    height: 100%;
+}
+#page4 #left #rs1{
+    width: 350px;
+    height: 350px;
+    /* background-color:yellow; */
+    position: absolute;
+    top: 0;
+    left: 2vh;
+}
+
+
+#page4 #left #rs2{
+    width: 350px;
+    height: 350px;
+    /* background-color:yellow; */
+    position: absolute;
+    top: 30vh;
+    right: 15vh;
+}
+#page4 #left #bearcup{
+    width: 300px;
+    height: 450px;
+    /* background-color:yellow; */
+    position: absolute;
+    top: 60vh;
+    left: 10vh;
+    transform: rotate(-15deg);
+}
+#page4 #right{
+    width: 50%;
+    height: 100%;
+    /* background-color: #56da2e; */
+    position: relative;
+}
+#page4 #right #bs{
+    width: 29.2vw;
+    height: 60vh;
+    /* background-color:yellow; */
+    position: absolute;
+    top: 20vh;
+    left: 30vh;
+    /* transform: translate(-50%,-50%); */
+}
+#page4 #right #bs img{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+#page4 .text{
+    width: 16vw;
+    height: 28vh;
+    /* background-color: black; */
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: white;
+}
+#page4 .text .logo{
+    width: 50px;
+    height: 50px;
+    /* background-color:chartreuse; */
+    border-radius: 50%;
+}
+#page4 .text h2{
+    border-bottom: 2px solid white;
+    font-size: 2vw;
+    font-family: druk;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#page4 .text p{
+    font-size: 1vw;
+}
+
+
+/* --------------------------------------------------------------------- */
+#page5{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(0, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page5 #box{
+    width: 80%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+    margin-left: 5%;
+}
+#page5 #box #top{
+    width: 100%;
+    height: 25%;
+    /* background-color: tomato; */
+    text-align: center;
+
+}
+#page5 #box #top h3{
+    font-size: 2.5vw;
+    font-family: yank;
+    font-weight: 100;
+
+}
+#page5 #box #top h1{
+    font-size:8vw;
+    font-family: druk;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 7vw;
+
+}
+
+
+#page5 #box #bottom{
+    width: 100%;
+    height: 75%;
+    /* background-color: rgb(83, 255, 71); */
+    display: flex;
+    justify-content: space-between;
+}
+#page5 #box #bottom .box{
+    width: 250px;
+    height: 100%;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#page5 #box #bottom .box .photo{
+    width: 98%;
+    height: 85%;
+    /* background-color: yellow; */
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+#page5 #box #bottom .box .photo #smallbottle{
+    opacity: 0;
+}
+#page5 #box #bottom .box h4{
+    font-size: 1.5vw;
+    font-family: gilroy;
+    font-weight: 100;
+}
+#page5 #box #bottom .box .photo:nth-last-child(1) img{
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+#page6{
+    width: 100%;
+    height: 125vh;
+    /* background-color: rgb(255, 0, 212); */
+    display: flex;
+    justify-content: center;
+}
+#page6 #box{
+    width: 90%;
+    height: 100%;
+    /* background-color: yellow; */
+    margin-left: 5%;
+}
+#page6 #box #top{
+    height: 45vh;
+    /* background-color: rgb(13, 255, 0); */
+    text-align: center;
+}
+#page6 #box #top h1{
+    font-family: druk;
+    font-size: 20vw;
+    letter-spacing: 5px;
+    background-image: url(./image/texture.png);
+    background-color: #DA2E39;
+    background-position: top;
+    background-size: cover;
+    background-repeat: repeat;
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+
+#page6 #box #bottom{
+    width: 100%;
+    height: 80vh;
+    background-color:#d71d29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    /* justify-content: space-around; */
+    background-image: url(./image/where-to-buy-overlay.png);
+    padding: 20px  200px;
+    position: relative;
+}
+#page6 #box #bottom::before{
+    content: "";
+    height: 173px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: url(./image/bg-overlay01.png) repeat-x 50% 0/auto 100%;
+    pointer-events: none;
+}
+#page6 #box #bottom #photo{
+    width: 200px;
+    height: 200px;
+    /* background-color: white; */
+}
+#page6 #box #bottom #photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#page6 #box #bottom button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: druk;
+    color: white;
+    font-size: 1.8vw;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Page 7 */
+#page7{
+    width: 100%;
+    height: 70vh;
+    /* background-color: rgb(255, 0, 212); */
+    display: flex;
+}
+#page7 #left{
+    width: 60%;
+    height: 60vh;
+    /* background-color: yellow; */
+    margin-left: 5%;
+}
+#page7 #left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page7 #right{
+    width: 40%;
+    height: 60vh;
+    /* background-color: rgb(0, 255, 110); */
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+#page7 #right h3{
+    font-family: yank;
+    font-size: 1.8vw;
+    font-weight: 100;
+}
+#page7 #right h1{
+    font-family: cooper;
+    font-size: 5vw;
+    line-height: 3.4vw;
+    transition: 0.5s ease;
+}
+#page7 #right h1:hover{
+    color: #DA2E39;
+}
+
+#page7 #right p{
+    font-family: gilroy;
+    width: 400px;
+}
+#page7 #right button{
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    font-family: druk;
+    font-size: 1.7vw;
+    text-transform: uppercase;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Page 8 */
+#page8{
+    width: 100%;
+    height: 160vh;
+    /* background-color: rgb(255, 0, 212); */
+    display: flex;
+}
+#page8 #left{
+    width: 30%;
+    height: 120vh;
+    /* background-color: yellow; */
+    margin-left: 5%;
+    padding: 100px 0 0 10px;
+}
+#page8 #left h1{
+    font-family: cooper;
+    font-size: 4vw;
+}
+#page8 #left button{
+    font-family: cooper;
+    font-size: 1.4vw;
+    text-decoration-line: underline;  
+    font-family: druk;
+    text-transform: uppercase;
+    padding: 10px 0 0 10px;
+    border: none;
+    background-color: transparent;
+}
+#page8 #right{
+    width: 65vw;
+    height: 120vh;
+    /* background-color: rgb(0, 238, 255); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+}
+#page8 #right .box{
+    width: 30%;
+    height: 100vh;
+    /* background-color: pink; */
+}
+#page8 #right .box .photo{
+    width: 100%;
+    height:90vh;
+    /* background-color: rgb(64, 224, 96); */
+}
+#page8 #right .box a{
+    font-size: 3vw;
+    font-family: druk;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+#page8 #right .box p{
+    font-size: 1vw;
+    font-family: gilroy;
+    font-weight: 100;
+    margin: 10px 0 20px 0;
+}
+#page8 #right .box .buyNow{
+    display: flex;
+    gap: 10px;
+}
+#page8 #right .box .buyNow button{
+    text-transform: uppercase;
+    font-family: druk;
+}
+#page8 #right .box .btn1{
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    transition: 0.5s ease;   
+}
+#page8 #right .box .btn1:hover{
+    background-color: #d71d29;
+    border-color: transparent;
+}
+#page8 #right .box .btn2{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.5vw;
+    text-decoration-line: underline;
+    /* color: white; */
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Page 9 */
+#page9{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    color: white;
+}
+#page9 #data{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 60px 30px;
+    position: relative;
+}
+
+#page9 #data::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    height: 324px;
+    width: 95%;
+    margin-left: 5%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    pointer-events: none;
+    z-index: 1;
+    background: url(./image/footer-t.png) repeat-x calc(50% + -147px) 100%/auto 324px;
+}
+
+
+#page9 #data #photo{
+    width: 400px;
+    height: 100%;
+    margin-left: 5%;
+}
+#page9 #data #photo img{
+    padding: 20px 0 0 70px;
+}
+#page9 #data #heading{
+    width: 600px;
+    height: 100%;
+    /* background-color: rgb(0, 55, 255);    */
+}
+#page9 #data #heading li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#page9 #data #heading a{
+    color:white;
+    width: max-content;
+    text-decoration: none;
+    font-family: druk;
+    font-size: 7vw;
+    text-transform: uppercase;
+    line-height: 5.6vw;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#page9 #data #heading a:hover{
+    color: #d71d29;
+}
+#page9 #data #text{
+    width: 600px;
+    height: 100%;
+    /* background-color: rgb(255, 153, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+#page9 #data #text h1{
+    font-family: yank;
+    letter-spacing: 3px;
+}
+#page9 #data #text #socialmedia{
+    width: 300px;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page9 #data #text #socialmedia i{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 2vw;
+    transition: 0.5s ease;
+}
+#page9 #data #text #socialmedia i:hover{
+    color: #d71d29;
+    cursor: pointer;
+    border-color: #d71d29;
+}
+#page9 #footer{
+    width: 100%;
+    height: 50vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page9 #footer #left{
+    width: 300px;
+    height: 100px;
+    /* background-color: rgb(47, 255, 252); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#page9 #footer #left a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+#page9 #footer #right{
+    width: 600px;
+    height: 50px;
+    /* background-color: greenyellow; */
+    font-family: gilroy;
+    
+}
+

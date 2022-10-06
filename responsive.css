@@ -1,0 +1,452 @@
+@media (max-width:600px) {
+    #main #nav{
+        display: none;
+    }
+    #main #pages #bottle{
+        display: none;
+    }
+
+
+    /* Page 1 */
+    #page1 #p1nav{
+        width: 100%;
+        margin: 0;
+        position: relative;
+        border-bottom: 10px double gray;
+    }
+    #page1 #p1nav #icon{
+        display: inline-block;
+    }
+    #page1 #p1nav #logo img{
+        width: 100px;
+        height: 100%;
+    } 
+    #page1 #box{
+        height: 60vh;
+    }
+    #page1 #box #heading{
+        width: 100vw;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    #page1 #box #heading h1{
+        font-size: 25vw;
+        line-height: 1;
+        z-index: 11;
+    }
+    #page1 #bot{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #page1 #bot img{
+        position: absolute;
+        bottom: 0;
+        height: 600px;
+        opacity: 0.7;
+        z-index: 10;
+        transform: rotate(15deg);
+    }
+    
+    /* ---------------------------------------------------------- */
+    /* Page 2 */
+    #page2{
+        height: 100vh;
+        display: contents;
+    }
+    #page2 #left{
+        width: 100%;
+    }
+    #page2 #left #text{
+        width: fit-content;
+        height: 500px;
+        margin:10px 10px;
+        justify-content: flex-start;
+        gap: 20px;
+    
+    }
+    #page2 #left #text h5{
+        font-size: 4vw;
+    }
+    #page2 #left #text h1{
+        font-size: 25vw;
+        line-height:1;
+    }
+    #page2 #left #text p{
+        font-size: 4vw;
+        opacity: 0.7;
+    }
+    
+    #page2 #right{
+        width: 100%;
+    }
+    #page2 #right #box{
+        margin: 0;
+    }
+    /* ---------------------------------------------------------------- */
+
+    /* Page 3 */
+    #page3{
+        width: 100%;
+        height: 160vh;
+        /* background-color: red; */
+    }
+    #page3 #top{
+        width: 100%;
+        height: max-content;
+        margin: 0;
+        text-align: center;
+    }
+    #page3 #top h1{
+        font-size: 20vw;
+        padding: 50px 0 0 10px;
+    }
+    
+    #page3 #bottom{
+        width: 100%;
+        height: 60%;
+        display: contents;
+    }
+    #page3 #bottom #left{
+        width: 100%;
+        height: fit-content;
+        margin-left: -10px;
+        
+    }
+    #page3 #bottom #left #video{
+        width: 100%;
+    }    
+    #page3 #bottom #left h3{
+        font-size: 6vw;
+    }
+    #page3 #bottom #right{
+        width: 100%;
+        height: 100%;
+        font-family: gilroy;
+        padding: 50px 0 100px 20px;
+    }
+    #page3 #bottom #right h3{
+        font-family: druk;
+        font-size: 8vw;
+        padding: 10px 0 5px 0;
+    }
+    /* ------------------------------------------------------------------------- */
+    /* Page 4 */
+    #page4{
+        display: inline-block;
+        min-height: 220vh;
+        /* background-color: green; */
+    }
+    #page4 #left{
+        width: 100%;
+        height: 140vh;
+        position: relative;
+        margin-left:0;
+    }
+
+    #page4 #left #rs1{
+        width: 300px;
+        height: 300px;
+        top: 10px;
+        left: 10px;
+    }
+    
+    
+    #page4 #left #rs2{
+        width: 300px;
+        height: 300px;
+        top: 45vh;
+        left: 90px;
+    }
+    #page4 #left #bearcup{
+        width: 250px;
+        height: 400px;
+        top: 90vh;
+        left: 10vh;
+    }
+
+    #page4 #right{
+        width: 100%;
+    }
+    #page4 #right #bs{
+        width: 350px;
+        height: 350px;
+        top: 20vh;
+        left: 5vh;
+    }
+    #page4 .text{
+        width: 50vw;
+        height: 50vh;
+        top: 45%;
+    }
+    #page4 .text h2{
+        font-size: 9vw;
+    }
+    #page4 .text p{
+        font-size: 4vw;
+    }
+    /* -------------------------------------------------------------- */
+    /* Page 5 */
+    #page5{
+        width: 100%;
+        min-height: 270vh;
+        display: inline-block;
+        /* background-color: springgreen; */
+    }
+    #page5 #box{
+        width: 100%;
+        height: 100vh;
+        margin:20px 0;
+    }
+    #page5 #box #top{
+        height: max-content;
+    }
+    #page5 #box #top h3{
+        font-size: 10vw;
+    }
+    #page5 #box #top h1{
+        font-size:28vw;
+        line-height: 1;
+    }
+
+    #page5 #box #bottom{
+        width: 100%;
+        height: max-content;
+        display: contents;
+        align-items: center;
+        justify-content: center;
+    }
+    #page5 #box #bottom .box{
+        width:100%;
+        height: 100%;
+        display: contents;
+        text-align: center;
+        
+        
+    }
+    #page5 #box #bottom .box .photo{
+        width: 100%;
+        height: 50%;
+        margin:10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #page5 #box #bottom .box .photo #smallbottle{
+        opacity: 1;
+    }
+    #page5 #box #bottom .box .photo img{
+        height: 300px;
+    }
+
+    #page5 #box #bottom .box h4{
+        font-size: 6vw;
+    }
+    #page5 #box #bottom .box:nth-last-child(1){
+        display: none;
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    /* Page 6 */
+    #page6 #box{
+        width: 100%;
+        margin: 0;
+    }
+    #page6 #box #top{
+        padding-top: 20px;
+    }
+    #page6 #box #top h1{
+        font-size: 30vw;
+        line-height: 1;
+    }
+    #page6 #box #bottom{
+        width: 100%;
+        height: 80vh;
+        padding: 0;
+    }
+    #page6 #box #bottom button{
+        font-size:6vw;
+    }
+
+    /* --------------------------------------------------------------------------------- */
+
+    /* Page 7 */
+    #page7{
+        height:120vh ;
+        display: inline-block;
+    }
+
+    #page7 #left{
+        width: 100%;
+        height: 50vh;
+        margin:0;
+    }
+    #page7 #right{
+        width: 100%;
+        height: 50vh;
+        padding:20px 0 0 20px;
+    }
+    #page7 #right h3{
+        font-size: 6vw;
+        padding: 10px 0 -10px 0;
+    }
+    #page7 #right h1{
+        font-size: 10vw;
+        line-height: 1;
+    }
+    
+    #page7 #right p{
+        width: 100%;
+        opacity: 0.7;
+    }
+    #page7 #right button{
+        padding: 10px 30px;
+        font-size: 6vw;
+    }
+
+/* -------------------------------------------------------------------------------------- */
+
+    /* Page 8 */
+    #page8{
+        width: 100%;
+        height: 420vh;
+        display: inline-block;
+    }
+    #page8 #left{
+        width: 100%;
+        height: max-content;
+        margin:0;
+        padding: 20px 5px;
+        text-align: center;
+    }
+    #page8 #left h1{
+        font-size: 15vw;
+    }
+    #page8 #left button{
+        font-size: 6vw;
+    }
+     
+    #page8 #right{
+        width: 100%;
+        height: max-content;
+        display:inline-block;
+    }
+    #page8 #right .box{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px dashed gray;
+    }
+    #page8 #right .box .photo{
+        height:70vh;
+        text-align: center;
+    }
+    #page8 #right .box .photo img{
+        height: 100%;
+    }
+    #page8 #right .box a{
+        font-size: 10vw;
+    }
+    #page8 #right .box p{
+        font-size: 3vw;
+        width: 80%;
+        padding: 5px 5px;
+    }
+    #page8 #right .box .btn1{
+        font-size: 6vw;
+    }
+    #page8 #right .box .btn2{
+        font-size: 6vw;
+    }
+    
+
+/* -------------------------------------------------------------------------------------------- */
+
+    /* Page 9 */
+    #page9{
+        height: max-content;
+    }
+    #page9 #data{
+        height: 100vh;
+        display: inline-block;
+        padding: 0;
+    }
+    #page9 #data::before {
+        width: 100%;
+        margin:0;
+    }
+    #page9 #data #photo{
+        width: 100%;
+        height: 25vh;
+        margin:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #page9 #data #photo img{
+        padding: 0;
+        height: 80%;
+    }
+    #page9 #data #heading{
+        width: 100%;
+        height: max-content;
+    }
+    #page9 #data #heading li{
+        padding: 10px;
+    }
+    
+    #page9 #data #heading a{
+        font-size: 20vw;
+        line-height: 1;
+    }
+   
+    #page9 #data #text{
+        width: 100%;
+        height: 30vh;
+    }
+    #page9 #data #text h1{
+        letter-spacing: 1px;
+    }
+    #page9 #data #text #socialmedia i{
+        font-size: 7vw;
+    }
+
+    #page9 #footer{
+        height: 40vh;
+        display: inline-block;
+        padding: 10px;
+    }
+    #page9 #footer #left{
+        width: 100%;
+        height: 20vh;
+    }
+    #page9 #footer #left a{
+        font-size: 4vw;
+    }
+    #page9 #footer #right{
+        width: 100%;
+        height: 20vh;
+        padding-top: 20px;
+    }
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+}
