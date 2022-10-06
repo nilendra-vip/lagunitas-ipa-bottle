@@ -1,10 +1,6 @@
 @media (max-width:600px) {
     #main{
         width: 100%;
-        /* height: 1000%; */
-        min-height: max-content;
-        background-color: #F6F3EA;
-        display: inline-block;
         overflow-x: hidden;
     }
     #main #nav{
@@ -16,6 +12,9 @@
 
 
     /* Page 1 */
+    #page1{
+        width: 100%;
+    }
     #page1 #p1nav{
         width: 100%;
         margin: 0;
@@ -33,7 +32,7 @@
         height: 60vh;
     }
     #page1 #box #heading{
-        width: 100vw;
+        width: 100%;
         height: inherit;
         display: flex;
         align-items: center;
