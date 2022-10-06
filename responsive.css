@@ -14,6 +14,7 @@
     /* Page 1 */
     #page1{
         width: 100%;
+        position: relative;
     }
     #page1 #p1nav{
         width: 100%;
@@ -40,7 +41,7 @@
         margin: 0;
     }
     #page1 #box #heading h1{
-        font-size: 25vw;
+        font-size: 20vw;
         line-height: 1;
         z-index: 11;
     }
@@ -78,10 +79,10 @@
     
     }
     #page2 #left #text h5{
-        font-size: 4vw;
+        font-size: 3vw;
     }
     #page2 #left #text h1{
-        font-size: 25vw;
+        font-size: 20vw;
         line-height:1;
     }
     #page2 #left #text p{
@@ -168,7 +169,7 @@
         width: 300px;
         height: 300px;
         top: 45vh;
-        left: 90px;
+        left: 70px;
     }
     #page4 #left #bearcup{
         width: 250px;
@@ -184,7 +185,7 @@
         width: 350px;
         height: 350px;
         top: 20vh;
-        left: 5vh;
+        left: 1vh;
     }
     #page4 .text{
         width: 50vw;
@@ -192,10 +193,10 @@
         top: 45%;
     }
     #page4 .text h2{
-        font-size: 9vw;
+        font-size: 7vw;
     }
     #page4 .text p{
-        font-size: 4vw;
+        font-size: 3vw;
     }
     /* -------------------------------------------------------------- */
     /* Page 5 */
@@ -214,10 +215,10 @@
         height: max-content;
     }
     #page5 #box #top h3{
-        font-size: 10vw;
+        font-size: 7vw;
     }
     #page5 #box #top h1{
-        font-size:28vw;
+        font-size:25vw;
         line-height: 1;
     }
 
@@ -268,7 +269,7 @@
         padding-top: 20px;
     }
     #page6 #box #top h1{
-        font-size: 30vw;
+        font-size: 25vw;
         line-height: 1;
     }
     #page6 #box #bottom{
@@ -321,7 +322,7 @@
     /* Page 8 */
     #page8{
         width: 100%;
-        height: 420vh;
+        height: 400vh;
         display: inline-block;
     }
     #page8 #left{
@@ -332,7 +333,7 @@
         text-align: center;
     }
     #page8 #left h1{
-        font-size: 15vw;
+        font-size: 12vw;
     }
     #page8 #left button{
         font-size: 6vw;
@@ -411,7 +412,7 @@
     }
     
     #page9 #data #heading a{
-        font-size: 20vw;
+        font-size: 15vw;
         line-height: 1;
     }
    
@@ -421,6 +422,7 @@
     }
     #page9 #data #text h1{
         letter-spacing: 1px;
+        font-size: 7vw;
     }
     #page9 #data #text #socialmedia i{
         font-size: 7vw;
