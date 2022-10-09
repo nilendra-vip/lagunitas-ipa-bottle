@@ -12,17 +12,16 @@ gsap.to("#bottle",{
 rotate: -15
 })
 
-// gsap.to("#bottle",{
-//   scrollTrigger: {
-//     trigger: "#bottle",
-//     scroller: "body",
-//     start:"top 4.8%",
-//     end:"top -56%",
-//     scrub: 1.2,
-//     pin:true,
-//     // markers: true
-// },  
-// scale: .7,
-// stagger: 0.5,
-// },)
+gsap.to("#bottle",{
+  scrollTrigger: {
+    trigger: "#bottle",
+    scroller: "body",
+    start:"top 4.8%",
+    end:"top -56%",
+    scrub: 1.2,
+    pin:true,
+    markers: true
+},  
+scale: .7,
+},)
 
