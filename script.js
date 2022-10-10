@@ -7,7 +7,7 @@ gsap.to("#bottle",{
     end:"top -330%",
     pin:true,
     scrub: 1,
-    markers: true
+    // markers: true
 },
 rotate: -15
 })
@@ -20,7 +20,7 @@ gsap.to("#bottle",{
     end:"top -56%",
     scrub: 1.2,
     pin:true,
-    markers: true
+    // markers: true
 },  
 scale: .7,
 },)
