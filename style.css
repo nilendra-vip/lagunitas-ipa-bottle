@@ -2,6 +2,11 @@
     font-family: cooper;
     src: url(./font/copperplate-b-webfont.ttf);
 }
+@font-face {
+    font-family: druk;
+    src: url(./font/Druk-Bold.ttf);
+}
+
 
 *{
     margin: 0%;
@@ -123,7 +128,7 @@ html,body{
 #page1 #box #heading h1{
     font-size: 16vw;
     text-transform: uppercase;
-    font-family: druk;
+    font-family: "druk";
     text-align: center;
     line-height: 13vw;
     color: rgb(180, 43, 43);
@@ -173,7 +178,7 @@ html,body{
 }
 #page2 #left #text h1{
     font-size: 7vw;
-    font-family: druk;
+    font-family: 'druk';
     text-transform: uppercase;
     line-height: 6vw;
     font-weight: 900;
@@ -235,7 +240,7 @@ html,body{
     align-items: center;
 }
 #page2 #right #box .part .text h1{
-    font-family: druk;
+    font-family: 'druk';
     font-size: 5vw;
     background-image: url(./image/texture.png);
     background-color:black;
@@ -265,7 +270,7 @@ html,body{
     margin: 0 0 0 5%;
 }
 #page3 #top h1{
-    font-family: druk;
+    font-family: 'druk';
     font-size: 19vw;
     text-transform: uppercase;
     text-align: center;
@@ -329,7 +334,7 @@ html,body{
     padding: 10px 100px 0 0;
 }
 #page3 #bottom #right h3{
-    font-family: druk;
+    font-family: 'druk';
     font-size: 2vw;
     padding: 10px 0 5px 0;
 }
@@ -427,14 +432,13 @@ html,body{
 #page4 .text h2{
     border-bottom: 2px solid white;
     font-size: 2vw;
-    font-family: druk;
+    font-family: 'druk';
     font-weight: 300;
     text-transform: uppercase;
 }
 #page4 .text p{
     font-size: 1vw;
 }
-
 
 /* --------------------------------------------------------------------- */
 #page5{
@@ -466,7 +470,7 @@ html,body{
 }
 #page5 #box #top h1{
     font-size:8vw;
-    font-family: druk;
+    font-family: 'druk';
     text-transform: uppercase;
     font-weight: 700;
     line-height: 7vw;
@@ -537,7 +541,7 @@ html,body{
     text-align: center;
 }
 #page6 #box #top h1{
-    font-family: druk;
+    font-family: 'druk';
     font-size: 20vw;
     letter-spacing: 5px;
     background-image: url(./image/texture.png);
@@ -592,7 +596,7 @@ html,body{
     height: 50px;
     background-color: black;
     text-transform: uppercase;
-    font-family: druk;
+    font-family: 'druk';
     color: white;
     font-size: 1.8vw;
 }
@@ -653,7 +657,7 @@ html,body{
     padding: 10px 40px;
     background-color: black;
     color: white;
-    font-family: druk;
+    font-family: 'druk';
     font-size: 1.7vw;
     text-transform: uppercase;
 }
@@ -683,7 +687,7 @@ html,body{
     font-family: cooper;
     font-size: 1.4vw;
     text-decoration-line: underline;  
-    font-family: druk;
+    font-family: 'druk';
     text-transform: uppercase;
     padding: 10px 0 0 10px;
     border: none;
@@ -710,7 +714,7 @@ html,body{
 }
 #page8 #right .box a{
     font-size: 3vw;
-    font-family: druk;
+    font-family: 'druk';
     text-transform: uppercase;
     color: black;
     text-decoration: none;
@@ -727,7 +731,7 @@ html,body{
 }
 #page8 #right .box .buyNow button{
     text-transform: uppercase;
-    font-family: druk;
+    font-family: 'druk';
 }
 #page8 #right .box .btn1{
     width: 130px;
@@ -808,7 +812,7 @@ html,body{
     color:white;
     width: max-content;
     text-decoration: none;
-    font-family: druk;
+    font-family: 'druk';
     font-size: 7vw;
     text-transform: uppercase;
     line-height: 5.6vw;
